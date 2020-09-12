@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C541C5C1250D0B2300E7A0BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C541C5C0250D0B2300E7A0BD /* AppDelegate.swift */; };
+		C541C5C3250D0B2300E7A0BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C541C5C2250D0B2300E7A0BD /* SceneDelegate.swift */; };
+		C541C5C5250D0B2300E7A0BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C541C5C4250D0B2300E7A0BD /* ContentView.swift */; };
+		C541C5C7250D0B2400E7A0BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C541C5C6250D0B2400E7A0BD /* Assets.xcassets */; };
+		C541C5CA250D0B2400E7A0BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C541C5C9250D0B2400E7A0BD /* Preview Assets.xcassets */; };
+		C541C5CD250D0B2400E7A0BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C541C5CB250D0B2400E7A0BD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C541C5BD250D0B2300E7A0BD /* ReactangleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactangleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C541C5C0250D0B2300E7A0BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C541C5C2250D0B2300E7A0BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C541C5C4250D0B2300E7A0BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C541C5C6250D0B2400E7A0BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C541C5C9250D0B2400E7A0BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C541C5CC250D0B2400E7A0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C541C5CE250D0B2400E7A0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C541C5BA250D0B2300E7A0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C541C5B4250D0B2300E7A0BD = {
+			isa = PBXGroup;
+			children = (
+				C541C5BF250D0B2300E7A0BD /* ReactangleApp */,
+				C541C5BE250D0B2300E7A0BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C541C5BE250D0B2300E7A0BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C541C5BD250D0B2300E7A0BD /* ReactangleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C541C5BF250D0B2300E7A0BD /* ReactangleApp */ = {
+			isa = PBXGroup;
+			children = (
+				C541C5C0250D0B2300E7A0BD /* AppDelegate.swift */,
+				C541C5C2250D0B2300E7A0BD /* SceneDelegate.swift */,
+				C541C5C4250D0B2300E7A0BD /* ContentView.swift */,
+				C541C5C6250D0B2400E7A0BD /* Assets.xcassets */,
+				C541C5CB250D0B2400E7A0BD /* LaunchScreen.storyboard */,
+				C541C5CE250D0B2400E7A0BD /* Info.plist */,
+				C541C5C8250D0B2400E7A0BD /* Preview Content */,
+			);
+			path = ReactangleApp;
+			sourceTree = "<group>";
+		};
+		C541C5C8250D0B2400E7A0BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C541C5C9250D0B2400E7A0BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C541C5BC250D0B2300E7A0BD /* ReactangleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C541C5D1250D0B2400E7A0BD /* Build configuration list for PBXNativeTarget "ReactangleApp" */;
+			buildPhases = (
+				C541C5B9250D0B2300E7A0BD /* Sources */,
+				C541C5BA250D0B2300E7A0BD /* Frameworks */,
+				C541C5BB250D0B2300E7A0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactangleApp;
+			productName = ReactangleApp;
+			productReference = C541C5BD250D0B2300E7A0BD /* ReactangleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C541C5B5250D0B2300E7A0BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "南端拓磨";
+				TargetAttributes = {
+					C541C5BC250D0B2300E7A0BD = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = C541C5B8250D0B2300E7A0BD /* Build configuration list for PBXProject "ReactangleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C541C5B4250D0B2300E7A0BD;
+			productRefGroup = C541C5BE250D0B2300E7A0BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C541C5BC250D0B2300E7A0BD /* ReactangleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C541C5BB250D0B2300E7A0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C541C5CD250D0B2400E7A0BD /* LaunchScreen.storyboard in Resources */,
+				C541C5CA250D0B2400E7A0BD /* Preview Assets.xcassets in Resources */,
+				C541C5C7250D0B2400E7A0BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C541C5B9250D0B2300E7A0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C541C5C1250D0B2300E7A0BD /* AppDelegate.swift in Sources */,
+				C541C5C3250D0B2300E7A0BD /* SceneDelegate.swift in Sources */,
+				C541C5C5250D0B2300E7A0BD /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C541C5CB250D0B2400E7A0BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C541C5CC250D0B2400E7A0BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C541C5CF250D0B2400E7A0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C541C5D0250D0B2400E7A0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C541C5D2250D0B2400E7A0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ReactangleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8259584TQ2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ReactangleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "amaebilove-gmail.com.ReactangleApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C541C5D3250D0B2400E7A0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ReactangleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8259584TQ2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ReactangleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "amaebilove-gmail.com.ReactangleApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C541C5B8250D0B2300E7A0BD /* Build configuration list for PBXProject "ReactangleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C541C5CF250D0B2400E7A0BD /* Debug */,
+				C541C5D0250D0B2400E7A0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C541C5D1250D0B2400E7A0BD /* Build configuration list for PBXNativeTarget "ReactangleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C541C5D2250D0B2400E7A0BD /* Debug */,
+				C541C5D3250D0B2400E7A0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C541C5B5250D0B2300E7A0BD /* Project object */;
+}
