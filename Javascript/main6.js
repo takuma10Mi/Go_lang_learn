@@ -1,1 +1,1 @@
-document.querySelector("");
+const io = new IntersectionObserver();
