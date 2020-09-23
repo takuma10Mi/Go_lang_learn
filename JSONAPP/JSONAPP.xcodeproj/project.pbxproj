@@ -3,16 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CFFBF273F0C64592F858421 /* Pods_JSONAPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85918B142AAB45C740E67458 /* Pods_JSONAPPTests.framework */; };
+		720DA51FE7B00982361CA9F0 /* Pods_JSONAPP_JSONAPPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E704D915F2DC8E2573FD2A3 /* Pods_JSONAPP_JSONAPPUITests.framework */; };
 		C541D3E5251A097B006E7B7E /* JSONAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C541D3E4251A097B006E7B7E /* JSONAPPApp.swift */; };
 		C541D3E7251A097B006E7B7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C541D3E6251A097B006E7B7E /* ContentView.swift */; };
 		C541D3E9251A097E006E7B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C541D3E8251A097E006E7B7E /* Assets.xcassets */; };
 		C541D3EC251A097E006E7B7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C541D3EB251A097E006E7B7E /* Preview Assets.xcassets */; };
 		C541D3F7251A097E006E7B7E /* JSONAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C541D3F6251A097E006E7B7E /* JSONAPPTests.swift */; };
 		C541D402251A097E006E7B7E /* JSONAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C541D401251A097E006E7B7E /* JSONAPPUITests.swift */; };
+		C541D447251A37D6006E7B7E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C541D446251A37D6006E7B7E /* Alamofire */; };
+		C541D450251A3852006E7B7E /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = C541D44F251A3852006E7B7E /* SwiftyJSON */; };
+		D72BB8B8FE2FB260AB290FC2 /* Pods_JSONAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EBC1315B5BE864BE9F3F9F /* Pods_JSONAPP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11418D0CBCBC8F35653A7B64 /* Pods-JSONAPP-JSONAPPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONAPP-JSONAPPUITests.release.xcconfig"; path = "Target Support Files/Pods-JSONAPP-JSONAPPUITests/Pods-JSONAPP-JSONAPPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		118E3C12B0E895E42122A782 /* Pods-JSONAPP-JSONAPPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONAPP-JSONAPPUITests.debug.xcconfig"; path = "Target Support Files/Pods-JSONAPP-JSONAPPUITests/Pods-JSONAPP-JSONAPPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E704D915F2DC8E2573FD2A3 /* Pods_JSONAPP_JSONAPPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONAPP_JSONAPPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4089E3217C02FB1B908247CA /* Pods-JSONAPPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONAPPTests.release.xcconfig"; path = "Target Support Files/Pods-JSONAPPTests/Pods-JSONAPPTests.release.xcconfig"; sourceTree = "<group>"; };
+		46EBC1315B5BE864BE9F3F9F /* Pods_JSONAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85918B142AAB45C740E67458 /* Pods_JSONAPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONAPPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8697F757104CDF39ED4C9F4D /* Pods-JSONAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONAPP.debug.xcconfig"; path = "Target Support Files/Pods-JSONAPP/Pods-JSONAPP.debug.xcconfig"; sourceTree = "<group>"; };
 		C541D3E1251A097A006E7B7E /* JSONAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C541D3E4251A097B006E7B7E /* JSONAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONAPPApp.swift; sourceTree = "<group>"; };
 		C541D3E6251A097B006E7B7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +57,8 @@
 		C541D3FD251A097E006E7B7E /* JSONAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C541D401251A097E006E7B7E /* JSONAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONAPPUITests.swift; sourceTree = "<group>"; };
 		C541D403251A097E006E7B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA00DFBDC53A24E0B7AD6EBA /* Pods-JSONAPPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONAPPTests.debug.xcconfig"; path = "Target Support Files/Pods-JSONAPPTests/Pods-JSONAPPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEF18483EA953611AAB00F57 /* Pods-JSONAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONAPP.release.xcconfig"; path = "Target Support Files/Pods-JSONAPP/Pods-JSONAPP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C541D450251A3852006E7B7E /* SwiftyJSON in Frameworks */,
+				D72BB8B8FE2FB260AB290FC2 /* Pods_JSONAPP.framework in Frameworks */,
+				C541D447251A37D6006E7B7E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CFFBF273F0C64592F858421 /* Pods_JSONAPPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				720DA51FE7B00982361CA9F0 /* Pods_JSONAPP_JSONAPPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19D6D23124736594C58142B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8697F757104CDF39ED4C9F4D /* Pods-JSONAPP.debug.xcconfig */,
+				EEF18483EA953611AAB00F57 /* Pods-JSONAPP.release.xcconfig */,
+				118E3C12B0E895E42122A782 /* Pods-JSONAPP-JSONAPPUITests.debug.xcconfig */,
+				11418D0CBCBC8F35653A7B64 /* Pods-JSONAPP-JSONAPPUITests.release.xcconfig */,
+				CA00DFBDC53A24E0B7AD6EBA /* Pods-JSONAPPTests.debug.xcconfig */,
+				4089E3217C02FB1B908247CA /* Pods-JSONAPPTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC2691408E95D5AE7B252F88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46EBC1315B5BE864BE9F3F9F /* Pods_JSONAPP.framework */,
+				3E704D915F2DC8E2573FD2A3 /* Pods_JSONAPP_JSONAPPUITests.framework */,
+				85918B142AAB45C740E67458 /* Pods_JSONAPPTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C541D3D8251A097A006E7B7E = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +121,8 @@
 				C541D3F5251A097E006E7B7E /* JSONAPPTests */,
 				C541D400251A097E006E7B7E /* JSONAPPUITests */,
 				C541D3E2251A097A006E7B7E /* Products */,
+				19D6D23124736594C58142B4 /* Pods */,
+				AC2691408E95D5AE7B252F88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,15 +181,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C541D406251A097E006E7B7E /* Build configuration list for PBXNativeTarget "JSONAPP" */;
 			buildPhases = (
+				23F031B17FD75BE038AC8C15 /* [CP] Check Pods Manifest.lock */,
 				C541D3DD251A097A006E7B7E /* Sources */,
 				C541D3DE251A097A006E7B7E /* Frameworks */,
 				C541D3DF251A097A006E7B7E /* Resources */,
+				88CE1FB44D5FF91F4871AD6E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = JSONAPP;
+			packageProductDependencies = (
+				C541D446251A37D6006E7B7E /* Alamofire */,
+				C541D44F251A3852006E7B7E /* SwiftyJSON */,
+			);
 			productName = JSONAPP;
 			productReference = C541D3E1251A097A006E7B7E /* JSONAPP.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C541D409251A097E006E7B7E /* Build configuration list for PBXNativeTarget "JSONAPPTests" */;
 			buildPhases = (
+				8A064EDE1BE5F4029167DB93 /* [CP] Check Pods Manifest.lock */,
 				C541D3EE251A097E006E7B7E /* Sources */,
 				C541D3EF251A097E006E7B7E /* Frameworks */,
 				C541D3F0251A097E006E7B7E /* Resources */,
@@ -172,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C541D40C251A097E006E7B7E /* Build configuration list for PBXNativeTarget "JSONAPPUITests" */;
 			buildPhases = (
+				C1C71C990091CEF1C2854F84 /* [CP] Check Pods Manifest.lock */,
 				C541D3F9251A097E006E7B7E /* Sources */,
 				C541D3FA251A097E006E7B7E /* Frameworks */,
 				C541D3FB251A097E006E7B7E /* Resources */,
+				397E7389F9A039AA0E44896F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +270,10 @@
 				Base,
 			);
 			mainGroup = C541D3D8251A097A006E7B7E;
+			packageReferences = (
+				C541D445251A37D6006E7B7E /* XCRemoteSwiftPackageReference "Alamofire" */,
+				C541D44E251A3852006E7B7E /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = C541D3E2251A097A006E7B7E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,6 +310,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23F031B17FD75BE038AC8C15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSONAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		397E7389F9A039AA0E44896F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONAPP-JSONAPPUITests/Pods-JSONAPP-JSONAPPUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONAPP-JSONAPPUITests/Pods-JSONAPP-JSONAPPUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JSONAPP-JSONAPPUITests/Pods-JSONAPP-JSONAPPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88CE1FB44D5FF91F4871AD6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONAPP/Pods-JSONAPP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONAPP/Pods-JSONAPP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JSONAPP/Pods-JSONAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A064EDE1BE5F4029167DB93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSONAPPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1C71C990091CEF1C2854F84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSONAPP-JSONAPPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C541D3DD251A097A006E7B7E /* Sources */ = {
@@ -414,6 +574,7 @@
 		};
 		C541D407251A097E006E7B7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8697F757104CDF39ED4C9F4D /* Pods-JSONAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +597,7 @@
 		};
 		C541D408251A097E006E7B7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEF18483EA953611AAB00F57 /* Pods-JSONAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +620,7 @@
 		};
 		C541D40A251A097E006E7B7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA00DFBDC53A24E0B7AD6EBA /* Pods-JSONAPPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +643,7 @@
 		};
 		C541D40B251A097E006E7B7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4089E3217C02FB1B908247CA /* Pods-JSONAPPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +666,7 @@
 		};
 		C541D40D251A097E006E7B7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118E3C12B0E895E42122A782 /* Pods-JSONAPP-JSONAPPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +687,7 @@
 		};
 		C541D40E251A097E006E7B7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11418D0CBCBC8F35653A7B64 /* Pods-JSONAPP-JSONAPPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +746,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C541D445251A37D6006E7B7E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.2;
+			};
+		};
+		C541D44E251A3852006E7B7E /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C541D446251A37D6006E7B7E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C541D445251A37D6006E7B7E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		C541D44F251A3852006E7B7E /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C541D44E251A3852006E7B7E /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C541D3D9251A097A006E7B7E /* Project object */;
 }

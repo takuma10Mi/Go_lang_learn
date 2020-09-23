@@ -1,0 +1,6 @@
+framework module Pods_JSONAPP {
+  umbrella header "Pods-JSONAPP-umbrella.h"
+
+  export *
+  module * { export * }
+}

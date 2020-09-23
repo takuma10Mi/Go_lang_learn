@@ -1,0 +1,6 @@
+framework module Pods_JSONAPP_JSONAPPUITests {
+  umbrella header "Pods-JSONAPP-JSONAPPUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
