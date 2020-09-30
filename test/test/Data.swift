@@ -1,24 +1,19 @@
 //
 //  Data.swift
-//  json ui
+//  test
 //
-//  Created by 南端拓磨 on 2020/09/26.
+//  Created by 南端拓磨 on 2020/10/01.
 //
-
 
 import SwiftUI
 
 struct Post: Codable, Identifiable {
     
     
-    struct Title:Codable {
-        var rendered:String
-    }
+
     let id = UUID()
-    var type: String
+    var type:String
     var slug: String
-    
-}
 
 class Api{
 
@@ -37,5 +32,3 @@ class Api{
         .resume()
     }
 }
-
-

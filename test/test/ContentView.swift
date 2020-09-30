@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  json ui
+//  test
 //
-//  Created by 南端拓磨 on 2020/09/26.
+//  Created by 南端拓磨 on 2020/10/01.
 //
 
 import SwiftUI
@@ -13,7 +13,6 @@ struct ContentView: View {
         List(posts){ post in
                 Text(post.slug)
                 Text(post.type)
-  
         }
         .onAppear{
             Api().getPosts { (posts) in
