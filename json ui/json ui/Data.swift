@@ -11,13 +11,20 @@ import SwiftUI
 struct Post: Codable, Identifiable {
     
     
-    struct Title:Codable {
+    struct Title: Codable {
         var rendered:String
+    }
+    struct Links: Codable {
+        var `self` :[Href]
+    }
+    struct Href: Codable{
+        var href:String
     }
     let id = UUID()
     var type: String
     var slug: String
-    var title: String
+    var title: Title
+    var _links:Links
     
 }
 
@@ -32,6 +39,7 @@ class Api{
             
         DispatchQueue.main.async{
             completion(posts)
+            print(posts)
         }
         }
 
