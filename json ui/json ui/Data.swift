@@ -17,6 +17,7 @@ struct Post: Codable, Identifiable {
     let id = UUID()
     var type: String
     var slug: String
+    var title: String
     
 }
 
