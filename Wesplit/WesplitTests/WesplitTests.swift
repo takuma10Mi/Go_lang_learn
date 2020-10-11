@@ -1,14 +1,14 @@
 //
-//  testTests.swift
-//  testTests
+//  WesplitTests.swift
+//  WesplitTests
 //
-//  Created by 南端拓磨 on 2020/10/03.
+//  Created by 南端拓磨 on 2020/10/08.
 //
 
 import XCTest
-@testable import test
+@testable import Wesplit
 
-class testTests: XCTestCase {
+class WesplitTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -14,17 +14,18 @@ struct Post: Codable, Identifiable {
     struct Title: Codable {
         var rendered:String
     }
-    struct Links: Codable {
-        var `self` :[Href]
+    struct Content: Codable {
+        var rendered:String
     }
-    struct Href: Codable{
-        var href:String
+    struct Excerpt: Codable {
+        var rendered:String
     }
     let id = UUID()
     var type: String
     var slug: String
     var title: Title
-    var _links:Links
+    var content: Content
+    var excerpt: Excerpt
     
 }
 

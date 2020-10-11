@@ -11,17 +11,22 @@ struct ContentView: View {
 //    @Stateでプロパティは値の変更が監視され、変更時に宣言されたViewのbodyが再描画されます。
     @State var posts: [Post] = []
     var body: some View {
-        List(posts){ post in
-            Text(post.title.rendered)
-//            Text(post.`_links`.`self`.href)
-        }
-        .onAppear{
-            Api().getPosts { (posts) in
-                self.posts = posts
-            }
-            print(posts)
-            
-        }
+        NavigationView {
+                    List(posts) { post in
+                        NavigationLink(destination: Text("\(post.content.rendered)")) {
+                            Text("\(post.title.rendered)")
+                        }
+                    }
+                    .navigationBarTitle("FiberBlog")
+                    .onAppear{
+                                Api().getPosts { (posts) in
+                                    self.posts = posts
+                                }
+                                print(posts)
+                    
+                            }
+                }
+
     }
 }
 
